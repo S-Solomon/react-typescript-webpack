@@ -1,0 +1,83 @@
+/*   color variables */
+$clr-negative: #ff1744;
+$clr-positive: #2abf77;
+$clr-gray100: #f0f7f8;
+$clr-gray200: #cfd8dc;
+$clr-gray300: #a7b7be;
+$clr-gray400: #6b7e86;
+$clr-gray500: #425a65;
+
+/*   border radius */
+$radius: 0.2rem;
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    font-family: Montserrat, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 100vh;
+    background-color: $clr-gray100;
+    color: $clr-gray500;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+.button-wrapper {
+    display: flex;
+    gap: 1rem;
+
+    & > * {
+        border: none;
+        background-color: white;
+        box-shadow: 0px 0px 10px $clr-gray200;
+        font-size: 2rem;
+        font-weight: bold;
+        color: inherit;
+        border-radius: 50%;
+        height: 4rem;
+        width: 4rem;
+        cursor: pointer;
+        outline: none;
+        transition: background-color 250ms ease-in-out, transform 50ms ease-in-out;
+
+        &:hover {
+            background-color: $clr-gray200;
+        }
+        &:active {
+            transform: scale(0.9);
+        }
+    }
+}
+
+.negative {
+    color: $clr-negative;
+    animation: pulse 500ms ease-in-out;
+}
+
+.positive {
+    color: $clr-positive;
+    animation: pulse 500ms ease-in-out;
+}
+
+@keyframes pulse {
+    0%,
+    100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
