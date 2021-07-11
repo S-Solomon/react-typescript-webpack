@@ -1,3 +1,3 @@
 # react-typescript-webpack
 
-Setting up
+Setting up react with Webpack 5, Typescript, Sass, Eslint, & Prettier 
