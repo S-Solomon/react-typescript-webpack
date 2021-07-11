@@ -10,7 +10,6 @@ $clr-gray500: #425a65;
 /*   border radius */
 $radius: 0.2rem;
 
-
 *,
 *::before,
 *::after {
@@ -51,7 +50,8 @@ h1 {
         width: 4rem;
         cursor: pointer;
         outline: none;
-        transition: background-color 250ms ease-in-out, transform 50ms ease-in-out;
+        transition: background-color 250ms ease-in-out,
+            transform 50ms ease-in-out;
 
         &:hover {
             background-color: $clr-gray200;

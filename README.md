@@ -11,3 +11,7 @@ Setting up react with Webpack 5, Typescript, Sass, Eslint, & Prettier
 - npm i -D @typescript-eslint/parser @typescript-eslint/eslint-plugin
 - npm i -D eslint-plugin-import eslint-plugin-jsx-a11y
 - npm install eslint-plugin-eslint-comments@latest --save-dev
+
+## Prettier
+
+- npm i -D prettier eslint-config-prettier eslint-plugin-prettier

@@ -18,7 +18,8 @@ module.exports = {
         'plugin:import/typescript',
         'plugin:jsx-a11y/recommended',
         'plugin:eslint-comments/recommended',
-        // 'plugin:prettier/recommended',
+        'prettier',
+        'plugin:prettier/recommended',
         // 'prettier/@typescript-eslint',
     ],
     rules: {
