@@ -17,6 +17,6 @@ Setting up react with Webpack 5, Typescript, Sass, Eslint, & Prettier
 - npm i -D prettier eslint-config-prettier eslint-plugin-prettier
 
 
-## Husky & Lint-Staged
+<!-- ## Husky & Lint-Staged
 
-- npm i -D husky@4 lint-staged
+- npm i -D husky@4 lint-staged -->
