@@ -3,7 +3,6 @@ import { useState } from 'react'
 
 export const App = () => {
     const [count, setCount] = useState(0)
-    const name = 'dee'
     return (
         <div className="app">
             <h1
