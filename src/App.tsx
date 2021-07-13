@@ -1,8 +1,8 @@
 import './App.scss'
 import { useState } from 'react'
 
-export const App = () => {
-    const [count, setCount] = useState(0)
+export const App: React.FC = () => {
+    const [count, setCount] = useState<number>(0)
     return (
         <div className="app">
             <h1
